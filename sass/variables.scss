@@ -12,3 +12,24 @@ $navbar-height: 60px;
 
 $font-family:  "Open Sans", Avenir, Arial, sans-serif;
 $font-size: 16px;
+
+
+%cta {
+  padding: 7px 40px;
+  background: $color-primary;
+  color: $color-white;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 20px 0;
+  border: none;
+  cursor: pointer;
+}
+
+%title {
+  font-size: 1.4em;
+}
+
+%list {
+  list-style-position: inside;
+  margin-top: 5px;
+}

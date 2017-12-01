@@ -28,6 +28,12 @@
       position: relative;
     }
 
+    img {
+      width: 100%;
+      max-height: 320px;
+      object-fit: cover;
+    }
+
     span {
       position: absolute;
       bottom: 20%;
@@ -47,12 +53,11 @@
     }
 
     h2 {
-      font-size: 1.4em;
+      @extend %title;
     }
 
     ul, ol {
-      list-style-position: inside;
-      margin-top: 5px;
+      @extend %list
     }
   }
 
@@ -61,12 +66,7 @@
       text-align: center;
     }
     button {
-      padding: 15px 40px;
-      background: $color-primary;
-      color: $color-white;
-      font-size: 1.2em;
-      font-weight: 500;
-      margin: 20px 0;
+      @extend %cta;
     }
   }
 }
