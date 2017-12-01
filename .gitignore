@@ -1,3 +1,5 @@
 node_modules/
 css
 build
+.sass-cache/
+.idea/

@@ -22,11 +22,10 @@ body {
   width: 100% !important;
   height: 100%;
   line-height: 1.6;
-  background-color: #f5f5f5;
+  background-color: $color-background;
   > table {
     max-width: $content-width;
     margin: 0 auto;
-    background-color: $color-white;
   }
 }
 
@@ -50,5 +49,4 @@ table td {
 /* -------------------------------------
     CONTENT
 ------------------------------------- */
-
 @import "header";
