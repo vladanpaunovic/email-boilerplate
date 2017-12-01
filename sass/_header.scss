@@ -1,0 +1,72 @@
+.header {
+
+  &__navbar {
+    background: $color-primary;
+    td {
+      padding: 0 20px;
+      height: $navbar-height;
+      vertical-align: middle;
+    }
+  }
+
+  &__item {
+    &--logo {
+      width: calc(100% - 120px);
+    }
+
+    &--sell {
+      width: 60px;
+    }
+
+    &--discover {
+      width: 60px;
+    }
+  }
+
+  &__hero {
+    td {
+      position: relative;
+    }
+
+    span {
+      position: absolute;
+      bottom: 20%;
+      left: 0;
+      background: rgba($color-white, .9);
+      color: $color-primary;
+      padding: 5px 20px;
+      text-align: left;
+      font-weight: 600;
+      font-size: 1.5em;
+    }
+  }
+
+  &__content {
+    td {
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 1.4em;
+    }
+
+    ul, ol {
+      list-style-position: inside;
+      margin-top: 5px;
+    }
+  }
+
+  &__cta {
+    td {
+      text-align: center;
+    }
+    button {
+      padding: 15px 40px;
+      background: $color-primary;
+      color: $color-white;
+      font-size: 1.2em;
+      font-weight: 500;
+      margin: 20px 0;
+    }
+  }
+}
